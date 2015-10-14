@@ -232,9 +232,13 @@ pre code {
   top: -5px;
 }
 .promo .scrns {
-  margin-top: 25;
+  margin-top: 25px;
   position: center;
 }
+.promo .scrns img {
+  margin: 0 0 0 -180px;
+}
+
 /* ======= About Section ======= */
 .about {
   padding: 80px 0;
