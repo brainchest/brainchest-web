@@ -231,6 +231,10 @@ pre code {
   position: relative;
   top: -5px;
 }
+.promo .scrns {
+  margin-rop: 25;
+  position: center;
+}
 /* ======= About Section ======= */
 .about {
   padding: 80px 0;
