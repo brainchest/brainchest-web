@@ -272,6 +272,11 @@ pre code {
   color: #074f66;
   font-size: 18px;
 }
+.about .item .content .star-text {
+  margin-top: 0;
+  color: #074f66;
+  font-size: 10px;
+}
 /* ======= Features Section ======= */
 .features {
   padding: 80px 0;
