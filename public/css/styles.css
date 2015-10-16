@@ -302,6 +302,11 @@ pre code {
   margin-right: 5px;
   color: #fff;
 }
+.features .star-text {
+  margin-top: 0;
+  color: #FFF;
+  font-size: 12px;
+}
 /* ======= Docs Section ======= */
 .docs {
   padding: 80px 0;
