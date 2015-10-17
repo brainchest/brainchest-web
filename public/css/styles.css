@@ -333,7 +333,7 @@ pre code {
   margin: 0 auto;
 }
 .docs .block {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 .docs .code-block {
   margin: 30px inherit;
@@ -347,6 +347,10 @@ pre code {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+.docs .container .block .video {
+  text-align: center;
+  margin-top: 20px;
 }
 /* ======= License Section ======= */
 .license {
