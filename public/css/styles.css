@@ -335,7 +335,7 @@ pre code {
 .docs .block {
   margin-bottom: 20px;
 }
-.docs .code-block {
+/*.docs .code-block {
   margin: 30px inherit;
 }
 .docs .code-block pre[class*="language-"] {
@@ -347,7 +347,7 @@ pre code {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-}
+}*/
 .docs .container .block .video {
   text-align: center;
   margin-top: 20px;
