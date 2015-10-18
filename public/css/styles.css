@@ -192,6 +192,7 @@ pre code {
 }
 .promo .title .highlight {
   color: #eebf3f;
+  background-color: transparent;
 }
 .promo .intro {
   font-size: 28px;
