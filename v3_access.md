@@ -32,7 +32,11 @@ Some further frequently asked questions (FAQ)
 
 #### When will the final version of Time Stamp v3 be available?
 
-Short answer: When it's ready. Probably some time in 2016. 
+Short answer: When it's ready. Probably some time in 2016.
+
+#### Does the Beta have Bugs?
+
+Allthough I tested Time Stamp a lot and have >200 Unit Tests (increasing), it certainly has. After all it is a Beta :) 
 
 #### Why is it not available on Windows 10 (Phone) yet?
 
