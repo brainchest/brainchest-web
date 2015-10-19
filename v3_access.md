@@ -5,6 +5,7 @@ title:  "Time Stamp v3 Beta Access"
 Time Stamp v3 Beta is now available for testing. It contains a lot of new features. Apart from that, about 90% of the internal code was rewritten to allow for future releases on other platforms like Windows 10, iOS and Android. This is also the main reason that development of v3 took more than one year.
 
 Here is the list of new features:
+
 * Export the Excel report to Google Drive, DropBox, Excel on WP, E-Mail
 * Save the Backup on Google Drive, DropBox, or send via E-Mail
 * Settings completely reorganized
@@ -26,8 +27,7 @@ Here is the list of new features:
 * Do you want to see Time Stamp in your native language? If yes, are you interested in helping out?
 * Your agreement: Please do not give negative ratings for the generally available version v2.4.2 based on your experience with v3. v3 is in Beta so will very likely still have issues that need to be fixed.
 
-
-
+<br><br>
 Some further frequently asked questions (FAQ)
 
 #### When will the final version of Time Stamp v3 be available?
