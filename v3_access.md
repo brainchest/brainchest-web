@@ -42,6 +42,14 @@ Allthough I tested Time Stamp a lot and have >200 Unit Tests (increasing), it ce
 
 I will create a native version of the UI that will use the same core. I don't want to support that currently due to a limited amount of time.
 
+#### Is the Beta a limited version or does it show ads?
+
+No. The Beta contains a fully functional Pro version of Time Stamp. No Ads, all the features are available. However, the beta will end at some point in time after the final version of v3 was made available. So you will have to migrate your data then to the original version.
+
+#### I want to have Time Stamp in my native language!
+
+Just sent me a mail and be prepared to help out here :)
+
 #### I have more questions!
 
 Then just send me an E-Mail (<mailto:stephan@brainchest.net>)
