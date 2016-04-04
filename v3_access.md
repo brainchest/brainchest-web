@@ -20,7 +20,7 @@ Here is the list of new features:
 
 **Phone Requirements:** Please note that the Beta currently is only available for Windows Phone 8.1. I will start working on a native Windows 10 version in parallel and will start with the Beta as soon as possible. However, this Beta program will be different from the WP8.1 one. More info on that later. Please my Twitter/Facebook account for more info on that.
 
-**So how to get access to the Beta now?** Time Stamp v3 Beta is a separate app download in the store. You only get access to that if I add your E-Mail address to a white list. So you won't find it when searching the store. This in turn means that you will have two versions on your phone. The current v2.4.2 and v3.0.x. As soon as v3 is final I will update v2.4.2 to the latest version. This has the advantage that the new functions can be tested before it is made globally available. So if you want to get access to the Beta please send me (<mailto:stephan@brainchest.net>) an E-Mail that contains the following information.
+**So how to get access to the Beta now?** Time Stamp v3 Beta is a separate app download in the store. You only get access to that if I add your E-Mail address to a white list. So you won't find it when searching the store. This in turn means that you will have two versions on your phone. The current v2.4.2 and v3.0.x. As soon as v3 is final I will update v2.4.2 to the latest version. This has the advantage that the new functions can be tested before it is made globally available. So if you want to get access to the Beta please send us (<mailto:beta@brainchest.net>) an E-Mail that contains the following information.
 
 * Name
 * E-Mail address that you used to register your Windows Phone
@@ -52,4 +52,4 @@ Just sent me a mail and be prepared to help out here :)
 
 #### I have more questions!
 
-Then just send me an E-Mail (<mailto:stephan@brainchest.net>)
+Then just send me an E-Mail (<mailto:beta@brainchest.net>)
