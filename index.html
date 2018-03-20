@@ -1,6 +1,290 @@
----
-layout: default
-title: Home
----
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>brainchest</title>
+	
+	<style>
+		* {
+			padding: 0px;
+			margin: 0px;
+			box-sizing: border-box;
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		}
+		
+		header {
+			height: 400px; 
+			background: rgb(23, 186, 239); 
+			padding: 5em;
+		}
+		
+		footer {
+			height: 400px;
+			background: rgb(23, 186, 239); 
+		}
+		
+		body {
+			font-size: 16px;
+			background-color: #F3F3F3
+		}
+		
+		a {
+			color: #3B3B3E;
+			text-decoration: none; /* no underline */
+		}
+		
+		h1 {
+			font-size: 7em;
+		}
+		
+		h2 {
+			font-size: 3em;
+			text-align: center;
+			padding: 1rem;
+		}
+		
+		h3 {
+			font-size: 1.1em;
+			text-align: center;
+			font-weight: 400;
+			padding: 1rem;
+		}
+		
+		h4 {
+			font-size: 1.2em;
+			font-weight: 500;
+		}
+		
+		.portfolio-container {
+			height: 39rem;
+		}
+		
+		.portfolio-item p {
+			padding-bottom: 2rem;
+			padding-left: 2rem;
+			padding-right: 2rem;
+		}
+		
+		.header-text {
+			text-align: center;
+			color: white;
+		}
+		
+		.portfolio-item {
+			width: 50%;
+			float:left;
+			height: 39rem; 
+			position: relative;
+		}
+		
+		.portfolio-item-timezone {
+			
+		}
+		
+		.portfolio-item-timestamp {
+			
+		}
+		
+		.hero-image {
+			position: absolute; 
+			bottom: 0px;
+			left: 0px; 
+			right: 0px; 
+			margin: auto;
+		}
+		
+		button {
+			padding: 1em;
+		}
+		
+		.addthis {
+			height: 4rem;
+			background: #074f66;
+		}
+		
+		.contact-header {
+			text-align: center;
+			padding: 0.8em;
+			font-weight: 700;
+			font-size: 2em;
+			color: #074f66;
+		}
+		
+		.contact-container {
+			width: 900px;
+			margin: auto;
+		}
+		
+		.contact-picture {
+			position: relative;
+			float: left;
+			width: 15%;
+		}
+		
+		.contact-picture img {
+			border-radius: 50%;
+		}
+		
+		.contact-information {
+			position: relative;
+			float: left;
+			width: 85%;
+			background-color: #10b2e7;
+			padding: 2em;
+		}
+		
+		.contact-information p {
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+			color: #074f66
+		}
+	
+		@media (max-width: 900px){
+			header {
+				height: 186px; 
+				padding: 1em;
+			}
+			
+			body {
+				font-size: 12px;
+			}
+			
+			.portfolio-container {
+				height: auto;
+			}
+			
+			.portfolio-item {
+				width: 100%;
+				height: 34rem; 
+				float: none;
+			}
+			
+			.portfolio-item-timezone {
+				height: 28rem;
+			}
 
-I am content
+			.portfolio-item-timestamp {
+				height: 35rem;
+			}
+			
+			footer {
+				height: 300px;
+				background: rgb(23, 186, 239); 
+			}
+			
+			.contact-container {
+				width: 100%;
+				margin: auto;
+			}
+			
+			.contact-picture {
+				position: relative;
+				float: left;
+				margin-left: 3%;
+				width: 20%;
+			}
+
+			.contact-information {
+				position: relative;
+				float: left;
+				width: 75%;
+				background-color: #10b2e7;
+				padding: 2em;
+			}
+		}
+    
+		@media (max-width: 460px){
+			header {
+				height: 140px; 
+				padding: 1em;
+			}
+			
+			h1 {
+				font-size: 4em;
+			}
+			
+			.portfolio-item-timezone {
+				height: 30rem;
+			}
+
+			.portfolio-item-timestamp {
+				height: 37rem;
+			}
+			
+			footer {
+				height: 450px;
+				background: rgb(23, 186, 239); 
+			}
+			
+			.contact-picture {
+				position: static;
+				text-align: center;
+				width: 100%;
+				margin: 0;
+			}
+
+			.contact-information {
+				width: 90%;
+				margin-left: 5%;
+				margin-top: 1em;
+				text-align: center;
+				background-color: #10b2e7;
+				padding: 2em;
+			}
+		}
+    </style>
+</head>
+
+<body>
+	<header>
+		<h1 class="header-text" style="color: #074f66">brain<span style="color: #eebf3f">chest</span></h1>
+		<h4 class="header-text" >Development of websites and apps. Creator of time-z.one and Time Stamp.</h4>
+	</header>
+	<div class="portfolio-container">
+		<div class="portfolio-item portfolio-item-timezone" style="background-color: #E1DEDE" href="google.com">
+			<h2>time-z.one</h2>
+			<h3>#timezone #schedule_planner #time_difference #meeting_planner</h3>
+			<p>time-z.one is a simple app for comparing current times in different timezones. It has also the possibility to schedule meetings that take place in multiple timezones. Either way, you can share the result with colleagues, partners and friends. The database contains more than 145000 cities to search the current time for.</p>
+			<img class="hero-image" src="assets/timezone_hero.png" alt="">
+		</div>
+		<div class="portfolio-item portfolio-item-timestamp" style="background-color: #D2CECE">
+			<h2>Time Stamp</h2>
+			<h3>#timestamp #timetracker #worktime</h3>
+			<p>Time Stamp is the #1 work time tracker in the Windows Phone Store. It is simple, yet feature rich and loved by many customers with an overall rating of &gt;4.5 stars. It is currently in development for any other major platform.</p>
+			<div style="text-align: center">
+				<img src="assets/Windows 128x128.png" alt="">
+			</div>
+			<img class="hero-image" src="assets/timestamp_hero.png" alt="">
+		</div>
+	</div>
+	<div class="addthis">
+		  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+	  <div class="addthis_inline_share_toolbox"></div>
+	</div>
+	<footer>
+		<div class="contact-header">
+			Contact
+		</div>
+		<div class="contact-container">
+			<div class="contact-picture">
+				<img src="assets/stephan.png" alt="">
+			</div>
+			<div class="contact-information">
+				<p style="font-size: 1.05em; font-weight: 500">Want to get news about Time Stamp?</p>
+				<p>I tweet about updates at <a href="twitter.com/brainchest" style="color: white">@brainchest</a></p>
+
+				<p>If you have suggestions for new functions or find problems then just write a mail. I'll answer.</p>
+
+				<p>My websites and apps are developed 100% in my spare time so new development always depends on the time that I have. But there is still a lot for me to do :)</p>
+
+				<p style="margin-top: 1.5em; margin-bottom: 0">Stephan Arenswald</p>
+				<p style="margin: 0px; color: #0c86ae">Entrepreneur, Scrum Product Owner, Software Engineer, Trekker</p>
+			</div>
+		</div>
+	</footer>
+	
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ab082fddbd74026"></script>
+
+</body>
+</html>
